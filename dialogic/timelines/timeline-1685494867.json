@@ -1,0 +1,48 @@
+{
+	"events": [
+		{
+			"condition": "==",
+			"definition": "1685495754-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1685486643.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Muito bem, você acertou"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"change_scene": "res://scenes/Jogo2.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "==",
+			"definition": "1685495754-648",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1685486643.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sinto muito, Você errou!"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1685494867.json",
+		"name": "RBrito"
+	}
+}

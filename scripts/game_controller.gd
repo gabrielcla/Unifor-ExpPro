@@ -7,13 +7,26 @@ Teclas:
 
 extends Node2D
 
-const velCursor := 5 # Velocidade do cursor
+var level = 1
+
+const velCursor := 3 # Velocidade do cursor
 
 var pos
 
 
+# Roda 1 vez ao entrar na cena
+func _ready():
+	pass
+	# Muda pra outra cena
+	#get_tree().change_scene("res://addons/dialogic/Dialog.tscn")
+
+
 # Roda em Loop
 func _process(delta):
+	
+	#var k = get_viewport().size.x
+	#var k = get_viewport().size
+	
 	pos = get_viewport().get_mouse_position() # Posição atual do mouse
 	
 	# Teclas Setas - Move o cursor do jogo
@@ -43,19 +56,3 @@ func _process(delta):
 	if Input.is_action_pressed("ui_cancel"):
 		get_tree().quit()
 	
-
-
-func _on_Button1_pressed():
-	print("Selecionado: Botão 1")
-
-
-func _on_Button2_pressed():
-	print("Selecionado: Botão 2")
-
-
-func _on_Button3_pressed():
-	print("Selecionado: Botão 3")
-
-
-func _on_Button4_pressed():
-	print("Selecionado: Botão 4")
