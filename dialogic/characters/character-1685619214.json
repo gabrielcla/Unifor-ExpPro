@@ -1,0 +1,21 @@
+{
+	"color": "#ff0010ff",
+	"description": "As mensagens não somem no final",
+	"display_name": "Diretor",
+	"display_name_bool": false,
+	"id": "character-1685619214.json",
+	"mirror_portraits": false,
+	"name": "tema2",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100,
+	"theme": "theme-1685495375.cfg"
+}

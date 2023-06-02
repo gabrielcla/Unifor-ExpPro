@@ -1,0 +1,15 @@
+{
+	"events": [
+		{
+			"character": "character-1685619214.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "O curador do museu acredita que uma das obras é uma falsificação. Ajude-o encontrando os 7 erros nessa falsificação"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1685619655.json",
+		"name": "7erros1"
+	}
+}

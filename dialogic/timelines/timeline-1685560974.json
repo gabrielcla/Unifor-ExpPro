@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"character": "character-1685486643.json",
+			"character": "character-1685619214.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Romero Brito é conhecido por suas obras com cores fortes e vibrantes e formas geométricas separadas por contornos pretos. Sabendo disso, qual dessas obras de arte pertence a ele"
@@ -10,6 +10,6 @@
 	"metadata": {
 		"dialogic-version": "1.4.5",
 		"file": "timeline-1685560974.json",
-		"name": "RBrito0"
+		"name": "RBrito1"
 	}
 }

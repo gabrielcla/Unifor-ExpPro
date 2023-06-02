@@ -1,0 +1,34 @@
+{
+	"events": [
+		{
+			"character": "character-1685619538.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Parabens. Você venceu!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1685619214.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fim de jogo."
+		},
+		{
+			"definition": "1685616557-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1685617178.json",
+		"name": "7erros2"
+	}
+}

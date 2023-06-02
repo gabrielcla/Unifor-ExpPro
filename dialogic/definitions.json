@@ -8,6 +8,18 @@
 			"name": "acertou1",
 			"type": 0,
 			"value": "-1"
+		},
+		{
+			"id": "1685616545-648",
+			"name": "acertou2",
+			"type": 0,
+			"value": "-1"
+		},
+		{
+			"id": "1685616557-787",
+			"name": "sair",
+			"type": 0,
+			"value": "0"
 		}
 	]
 }

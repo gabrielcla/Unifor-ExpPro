@@ -7,7 +7,7 @@
 			"value": "1"
 		},
 		{
-			"character": "character-1685486643.json",
+			"character": "character-1685619538.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Muito bem, você acertou"
@@ -31,10 +31,24 @@
 			"value": "0"
 		},
 		{
-			"character": "character-1685486643.json",
+			"character": "character-1685619479.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Sinto muito, Você errou!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1,
+			"waiting_skippable": false
+		},
+		{
+			"definition": "1685616557-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
 		},
 		{
 			"event_id": "dialogic_013"
@@ -43,6 +57,6 @@
 	"metadata": {
 		"dialogic-version": "1.4.5",
 		"file": "timeline-1685494867.json",
-		"name": "RBrito"
+		"name": "RBrito2"
 	}
 }

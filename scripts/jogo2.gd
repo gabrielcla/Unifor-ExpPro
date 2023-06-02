@@ -4,18 +4,28 @@ extends Node2D
 var erros = [0,0,0,0,0,0,0]
 var cont = 7
 
+var dialogo1
+var dialogo2 = null
 
-# Called when the node enters the scene tree for the first time.
+
 func _ready():
-	pass # Replace with function body.
+	# Adiciona na cena a caixa de diálogo
+	dialogo1 = Dialogic.start('7erros1')
+	add_child(dialogo1)
 
 
 func _process(delta):
-	var soma = 0
-	for e in erros:
-		soma += e
-	
-	
+	if cont == 0:
+		Dialogic.set_variable('acertou2', 1)
+
+		# Tira o dialogo1
+		if dialogo1 != null and is_instance_valid(dialogo1):
+			remove_child(dialogo1)
+
+		# Bota o dialogo2
+		if dialogo2 == null:
+			dialogo2 = Dialogic.start('7erros2')
+			add_child(dialogo2)
 
 
 func _on_Button1_pressed():

@@ -1,0 +1,21 @@
+{
+	"color": "#ff00ff04",
+	"description": "Tema usado quando o jogador acerta",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1685619538.json",
+	"mirror_portraits": false,
+	"name": "Acertou",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100,
+	"theme": "theme-1685619547.cfg"
+}
